@@ -1,0 +1,90 @@
+body{
+    background-image: url(Images/fundo.jpg);
+    background-size: horizontal cover;
+    color: black;
+    text-align: left;
+    margin: 20px;
+    font-family: 'Russo One', sans-serif;
+}
+h1{
+    font-size: 50px;
+    margin-left: 435px;
+}
+p{
+    font-size: 20px;
+    margin-left: 470px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+span{
+    color: green
+}
+ul{
+    list-style: none;
+    margin-top: 80px;
+    margin-left: 635px;
+}
+li{
+    display: inline;
+}
+ul li a{
+    color: rgb(16, 16, 197);
+    text-decoration: none;
+    font-size: 25px;
+    padding: 15px;
+}
+ul li a:hover{
+opacity: 0.6;
+}
+.segundo-paragrafo{
+    margin-left: 620px;
+}
+.terceiro-paragrafo{
+    margin-left: 680px;
+    margin-bottom: 100px;
+}
+.botao{
+    text-decoration: none;
+    background-color: rgb(44, 179, 80);
+    padding: 10px 10px 10px 10px;
+    margin-left: 230px;
+    color: white; 
+}
+.botao:hover{
+    opacity: 0.6;
+}
+@media (max-width: 640px) {
+    body{
+        text-align: left;
+        margin-left: 10px;
+    }
+    h1{
+        text-align: left;
+        margin-left: 10px;
+    }
+    p{
+        text-align: left;
+        margin-left: 10px;
+    }
+    ul{
+        text-align: left;
+        margin-left: 0px;
+    }
+    ul li a{
+        text-align: left;
+        margin-left: 0px;
+        padding: 0px;
+    }
+    .segundo-paragrafo{
+        text-align: left;
+        margin-left: 10px;
+    }
+    .terceiro-paragrafo{
+        text-align: left;
+        margin-left: 10px;
+    }
+    .botao{
+        text-align: left;
+        margin-left: 10px;
+    }
+}
